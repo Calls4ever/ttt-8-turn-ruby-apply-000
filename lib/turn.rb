@@ -1,6 +1,6 @@
 def turn(board, index)
   puts "Please enter 1-9:"
-  val=input_to_index(input)
+  val=input_to_index(index)
   if valid_move?(val)
     move(board, val, value)
 else
