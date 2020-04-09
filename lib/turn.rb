@@ -24,8 +24,8 @@ def input_to_index(user_input)
   return user_input
 end
 
-def valid_move?(user_input)
-  if input>=0 && input<9
+def valid_move?(index)
+  if index>=0 && index<9
     return true
   else return false
   end
