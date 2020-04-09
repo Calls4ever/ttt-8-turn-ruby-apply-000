@@ -18,7 +18,7 @@ end
 
 
 
-def input_to_index(input)
+def input_to_index(user_input)
   input= input.to_i
   input=input-1
   return input
