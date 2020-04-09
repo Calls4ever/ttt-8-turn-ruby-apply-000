@@ -1,12 +1,4 @@
-def turn(board)
-  puts "Please enter 1-9:"
-  val=input_to_index(index)
-  if valid_move?(board,val)
-    move(board, val, value)
-else
-  puts "plese enter valid number!"
-end
-end
+
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
