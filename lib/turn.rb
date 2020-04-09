@@ -19,19 +19,19 @@ end
 
 
 def input_to_index(user_input)
-  input= input.to_i
-  input=input-1
-  return input
+  user_input= input.to_i
+  user_input=input-1
+  return user_input
 end
 
-def valid_move?(input)
+def valid_move?(user_input)
   if input>=0 && input<9
     return true
   else return false
   end
 end
 
-def move(board, input, value="X")
-  board[input]=value
+def move(board, index, value="X")
+  board[index]=value
 
 end
